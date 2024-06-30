@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Grupo-4" />
+    <link rel="stylesheet" href="/Estilos/gestion.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <title>Gestion de Peliculas y funciones</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-volver">
+                <img src="/img/logo.png" class="logo-nav" alt="Logo" />
+            </div>
+            <div class="col-md-6 volver">
+                <a href="index.html"><i class="bi bi-arrow-left"></i> Volver</a>
+                <!-- Botón de búsqueda por si necesitan -->
+                <!-- <input class="caja-buscar" type="text" placeholder="Buscar" />
+                    <button class="btn-buscar" type="submit">Buscar</button> -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container main-container">
+            <div class="row mb-3">
+                <div class="col lista-pelis">
+                    <a href="index.html">Lista de Funciones y Peliculas</a>
+                </div>
+            </div>
+
+            <!-- Primera Película -->
+            <div class="row movie-card mb-4">
+                <div class="col-md-3">
+                    <img src="/img-gestion/img1.webp" class="img-fluid" alt="Película 1" />
+                </div>
+                <div class="col-md-6">
+                    <h5>INTENSA MENTE 2</h5>
+                    <p><strong>Fecha de estreno:</strong> 24/06/2024</p>
+                    <p><strong>Duración:</strong> 120 minutos</p>
+                    <p><strong>Tickets:</strong> Disponibles</p>
+                    <p>
+                        <strong>Sinopsis:</strong>"Del Revés 2 (Inside out 2)", de Disney
+                        y Pixar, regresa a la mente de una Riley recién entrada en la
+                        adolescencia justo en el momento en que el Cuartel General está
+                        sufriendo una repentina reforma para hacerle hueco a algo
+                        totalmente inesperado: ¡Nuevas emociones! Alegría, Tristeza, Ira,
+                        Miedo y Asco, con años de impecable gestión a sus espaldas (según
+                        ellos...) no saben muy bien qué sentir cuando aparece Ansiedad. Y
+                        parece que no viene sola. "Del Revés 2 (Inside out 2)", dirigida
+                        por Kelsey Mann y producida por Mark Nielsen, estará próximamente
+                        en cines.
+                    </p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="btn btn-primary me-2">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+
+            <!-- Segunda Película -->
+            <div class="row movie-card mb-4">
+                <div class="col-md-3">
+                    <img src="/img-gestion/img4.jpeg" class="img-fluid" alt="Película 2" />
+                </div>
+                <div class="col-md-6">
+                    <h5>AVATAR</h5>
+                    <p><strong>Fecha de estreno:</strong> 06/12/2022</p>
+                    <p><strong>Duración:</strong> 180 minutos</p>
+                    <p><strong>Tickets:</strong> No disponibles</p>
+                    <p>
+                        <strong>Sinopsis:</strong>Jake Sully y Ney'tiri han formado una
+                        familia y hacen todo lo posible por permanecer juntos. Sin
+                        embargo, deben abandonar su hogar y explorar las regiones de
+                        Pandora cuando una antigua amenaza reaparece.
+                    </p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="btn btn-primary me-2">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+
+            <!-- Tercera Película -->
+            <div class="row movie-card mb-4">
+                <div class="col-md-3">
+                    <img src="/img-gestion/img5.webp" class="img-fluid" alt="Película 3" />
+                </div>
+                <div class="col-md-6">
+                    <h5>KRAVEN</h5>
+                    <p><strong>Fecha de estreno:</strong> 07/11/2024</p>
+                    <p><strong>Duración:</strong> 160 minutos</p>
+                    <p><strong>Tickets:</strong> Disponibles</p>
+                    <p>
+                        <strong>Sinopsis:</strong>El inmigrante ruso Sergei Kravinoff está
+                        en una misión para demostrar que es el mejor cazador del mundo.
+                    </p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="btn btn-primary me-2">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+
+            <!-- Cuarta Película -->
+            <div class="row movie-card mb-4">
+                <div class="col-md-3">
+                    <img src="/img-gestion/img3.jpg" class="img-fluid" alt="Película 4" />
+                </div>
+                <div class="col-md-6">
+                    <h5>FALCON Y EL SOLDADO DEL INVIERNO</h5>
+                    <p><strong>Fecha de estreno:</strong> 19/03/2021</p>
+                    <p><strong>Duración:</strong> 150 minutos</p>
+                    <p><strong>Tickets:</strong> No disponibles</p>
+                    <p>
+                        <strong>Sinopsis:</strong>Seis meses después de recibir el manto
+                        de Capitán América al final de Avengers: Endgame (2019),Sam Wilson
+                        se une a Bucky Barnes en una misión global para detener a un grupo
+                        antipatriotista, los Flag Smashers, que han sido mejorados con una
+                        recreación del Suero del Súper Soldado y creen que el mundo era
+                        mejor durante el Blip.
+                    </p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="btn btn-primary me-2">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+
+            <!-- Quinta Película -->
+            <div class="row movie-card mb-4">
+                <div class="col-md-3">
+                    <img src="/img-gestion/img2.jpg" class="img-fluid" alt="Película 5" />
+                </div>
+                <div class="col-md-6">
+                    <h5>GARFIELD</h5>
+                    <p><strong>Fecha de estreno:</strong> 24/05/2024</p>
+                    <p><strong>Duración:</strong> 101 minutos</p>
+                    <p><strong>Tickets:</strong> Disponibles</p>
+                    <p>
+                        <strong>Sinopsis:</strong> Garfield, el mundialmente famoso gato
+                        de interior que odia los lunes y ama las lasaña, está a punto de
+                        vivir una salvaje aventura al aire libre. Después de un
+                        reencuentro inesperado con su padre perdido hace mucho tiempo, el
+                        gato callejero desaliñado Vic, Garfield y su amigo canino Odie se
+                        ven obligados a dejar su vida perfectamente mimada para unirse a
+                        Vic en un hilarante atraco de alto riesgo.
+                    </p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="btn btn-primary me-2">Editar</button>
+                    <button class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <button class="btn btn-success mt-4">Agregar función/Película</button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

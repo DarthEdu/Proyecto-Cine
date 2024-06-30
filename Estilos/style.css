@@ -1,0 +1,47 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color:#333;
+  text-align: left;
+  font-size: medium;
+  padding: 10px;
+  border: rgb(153, 26, 26) solid 2px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: white; /* Cambia este valor según el color que deseen */
+  padding: 0 10px; /* Añade espacio entre los enlaces */
+}
+
+.slide{
+  padding: 10px;
+}
+
+.cabecera {
+  color: rgb(11, 102, 138);
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.btn-buscar{
+  border: rgba(3, 60, 20, 0.83)solid 2px ;
+  border-radius: 10px;
+  background: green;
+  width: 80px;
+
+}
+
+.caja-buscar{
+  border: rgba(3, 60, 20, 0.83);
+  border-radius: 5px;
+}
